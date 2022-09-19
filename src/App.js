@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Home />
       <Routes>
-        <Route exact path="/cat" element={<Category />} />
+        <Route exact path="/cat" element={<Category />}/>
         <Route exact path="/wel" element={<Welcome />} />
         <Route exact path="/features_resource" element={<FeaturesResource />} />
       </Routes>
