@@ -1,21 +1,32 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Category from "./Components/Category/category";
-import Welcome from "./Components/Welcome/welcome";
-import FeaturesResource from "./Components/Featured Topics and Additional Resources/FeatureTop_AddResource";
-import Home from "./Components/Home";
+import Home from "../src/Home";
+import Footer from "./Components/Footer";
+import GraphicsDesign from "./Components/GraphicsDesign";
+import DashboardMain from "./Components/DashboardMain";
+import SocialMarketing from "./Components/Social-Marketing";
+import TACWorkspace from "./Components/TACWorkspace";
+import TAC_Business from "./Components/TAC_Business";
+import TAC_Community from "./Components/TAC_Community";
+import home1 from "./Components/home1";
 
 function App() {
-  return (
-    <Router>
-      <Home />
-      <Routes>
-        <Route exact path="/cat" element={<Category />}/>
-        <Route exact path="/wel" element={<Welcome />} />
-        <Route exact path="/features_resource" element={<FeaturesResource />} />
-      </Routes>
-    </Router>
-  );
+	return (
+	<Router>
+			<Routes>
+				<Route exact path="/" element={<Home user={true} />} />
+				<Route exact path="/home" element={<Home user={true} />} />
+				<Route exact path="/socialmarketing" element={<SocialMarketing />} />
+				<Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
+				<Route exact path="/TACworkspace" element={<TACWorkspace />} />
+				<Route exact path="/DashBoardMain" element={<DashboardMain />} />
+				<Route exact path="/TAC_Business" element={<TAC_Business />} />
+				<Route exact path="/TAC_Community" element={<TAC_Community />} />
+			</Routes>
+			<Footer />
+	</Router>
+	
+	);
 }
 
 export default App;
