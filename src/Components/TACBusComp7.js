@@ -32,13 +32,13 @@ export default function TACBusComp7() {
         <div className="TACB-PP-Tos-div">
           <p className="TACB-PP-Tos-p">
             <p>
-              <a href="#">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </p>
             <p>
               <span>|</span>
             </p>
             <p>
-              <a href="#">Terms of Service</a>
+              <a href="/">Terms of Service</a>
             </p>
           </p>
         </div>

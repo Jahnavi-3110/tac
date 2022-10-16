@@ -12,10 +12,10 @@ function TACworkspaceNav() {
 
         <div className="WS-MainNav-Div1">
           <div className="WS-GU">
-            <a href="#">GO UNLIMITED</a>
+            <a href="/">GO UNLIMITED</a>
           </div>
           <div className="WS-GT">
-            <a href="#">Go to TAC</a>
+            <a href="/">Go to TAC</a>
           </div>
           <div className="WS-Con">
             <button>Continue</button>

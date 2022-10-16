@@ -17,9 +17,9 @@ export default function Home2() {
         <h2 className="heading">Explore the marketplace</h2>
         <div class="align-items-stretch flex-main-1">
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Graphics} className="icon-img" />
+                <img src={Graphics} alt="home2Img1" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Art & Graphics</b>
@@ -27,9 +27,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Digital} className="icon-img" />
+                <img src={Digital} alt="home2Img2" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Digital & TV</b>
@@ -37,9 +37,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Write} className="icon-img" />
+                <img src={Write} alt="home2Img3" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Blog & Writing</b>
@@ -47,9 +47,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Video} className="icon-img" />
+                <img src={Video} alt="home2Img4" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Video & Youtube</b>
@@ -57,9 +57,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Music} className="icon-img" />
+                <img src={Music} alt="home2Img5" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Podcast</b>
@@ -69,9 +69,9 @@ export default function Home2() {
         </div>
         <div class="align-items-stretch flex-main-1">
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Program} className="icon-img" />
+                <img src={Program} alt="home2Img6" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Technology</b>
@@ -79,9 +79,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Business} className="icon-img" />
+                <img src={Business} alt="home2Img7" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Business</b>
@@ -89,9 +89,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Lifestyle} className="icon-img" />
+                <img src={Lifestyle} alt="home2Img8" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Lifestyle</b>
@@ -99,9 +99,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="f-hover-e">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div className="div-underline">
-                <img src={Data} className="icon-img" />
+                <img src={Data} alt="home2Img9" className="icon-img" />
               </div>
               <p className="img-p">
                 <b>Big Data</b>
@@ -109,9 +109,9 @@ export default function Home2() {
             </a>
           </div>
           <div className="no-need">
-            <a href="#" className="content-a">
+            <a href="/" className="content-a">
               <div>
-                <img src={Data} className="icon-img" />
+                <img src={Data} alt="home2Img10" className="icon-img" />
               </div>
               <p>Big Data</p>
             </a>
